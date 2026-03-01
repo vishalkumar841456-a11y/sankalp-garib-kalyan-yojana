@@ -1,0 +1,18 @@
+{
+  "backend/main.mo": "Empty Motoko actor serving as the backend entry point with no implemented functionality.",
+  "feature_evidence.json": "Feature evidence report mapping implemented features (header, hero, services, footer) to their source files, components, and test IDs with confidence ratings.",
+  "frontend-file-summaries.txt": "JSON document containing one-sentence summaries of each frontend source file for build planning reference.",
+  "frontend/index.css": "Global Tailwind CSS entry point defining OKLCH-based CSS custom properties for light and dark theme color tokens including backgrounds, borders, and chart colors.",
+  "frontend/index.html": "Minimal HTML shell for the Sankalp Garib Kalyan Yojana SPA, mounting the React app at the root div and loading the main TSX module.",
+  "frontend/src/App.tsx": "Root React component that composes the full single-page layout by rendering Header, HeroSection, ServicesSection, and Footer in sequence.",
+  "frontend/src/components/Footer.tsx": "Dark slate-900 footer with three columns for logo/tagline, quick links with smooth scroll, and contact details (email, phone, address), plus a dynamic copyright year and caffeine.ai attribution.",
+  "frontend/src/components/Header.tsx": "Fixed top navigation header featuring the foundation logo, smooth-scroll desktop nav links, a clickable orange phone number, an orange rounded-pill Register button, and a responsive mobile hamburger menu.",
+  "frontend/src/components/HeroSection.tsx": "Full-width hero section with an orange-to-white gradient, badge, bold headline, supporting paragraph, Apply Now and Call Now CTA buttons, stat counters, and a hero community image with a floating trust badge.",
+  "frontend/src/components/ServicesSection.tsx": "Services section rendering four welfare program cards (Free Healthcare, Quality Education, Farmer Welfare, Employment Mission) in a responsive grid with orange icons, hover border highlight, and icon scale animation.",
+  "frontend/src/hooks/useActor.ts": "Custom React hook that creates and caches an ICP backend actor (authenticated or anonymous) using React Query, and invalidates dependent queries whenever the actor changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Provides an InternetIdentityProvider component and useInternetIdentity hook for managing ICP Internet Identity authentication state, including login, logout, and identity persistence via AuthClient.",
+  "frontend/src/index.css": "Global CSS file that imports Google Fonts (Hind, Poppins), sets up Tailwind directives, and defines light/dark theme CSS custom properties using OKLCH color values with a saffron-orange brand color.",
+  "frontend/src/main.tsx": "React app entry point that mounts the root component wrapped with QueryClientProvider and InternetIdentityProvider.",
+  "frontend/tailwind.config.js": "Tailwind CSS configuration extending the default theme with custom brand colors (OKLCH-based), typography, border radii, font families (Hind/Poppins), and accordion animations, with typography, container-queries, and animate plugins.",
+  "project_state.json": "Project state metadata describing a Hindi-language NGO landing page (Sankalp Garib Kalyan Yojana) with its architectural notes, existing features, image requirements, and build history."
+}

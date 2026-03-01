@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "Landing page for Sankalp Garib Kalyan Yojana by Sankalp Marg Foundation. Hindi-language NGO/welfare scheme website with header, hero section, services section, and contact footer. Uses Tailwind CSS, Font Awesome icons, and Hind font. Features: fixed navigation, Apply Now CTA, phone call button, 4 service cards (Health, Education, Farmer Welfare, Employment), and a dark footer with contact details.",
+  "architectural_notes": [
+    "Built with Tailwind CSS (CDN), Font Awesome 6, and Google Fonts (Hind) for Hindi text",
+    "Single-page layout with anchor navigation: #home, #about, #contact",
+    "Orange (#orange-600) and slate color scheme; emerald used for call CTA button",
+    "Logo image: 43664.png (local file); hero image from Unsplash CDN"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Sankalp Marg Foundation NGO logo — a warm saffron/orange circular emblem with an open hand and a glowing sun rising above it, representing service and hope, on a white background (sankalp-logo.dim_256x256.png)\n- Hero section photo — a warm, uplifting scene of diverse Indian community members gathered together in a village setting, soft golden-hour lighting, hopeful and welcoming atmosphere (hero-community.dim_800x600.png)",
+  "existing_features": [
+    {
+      "id": "feature-build-a-fixed-top-navigation-header-with-the-sankalp-marg-foundation-logo-use-generated-logo-asset-navigation-links-to-home-scheme-info-and-contact-sections-a-clickable-phone-number-7562038551-displayed-in-orange-and-a-register-button-styled-as-an-orange-rounded-pill",
+      "title": "Build a fixed top navigation header with the Sankalp Marg Foundation logo (use generated logo asset), navigation links to Home, Scheme Info, and Contact sections, a clickable phone number (7562038551) displayed in orange, and a 'Register' button styled as an orange rounded pill.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-full-width-hero-section-with-an-orange-to-white-gradient-background-left-side-a-badge-labeled-sankalp-marg-foundation-a-large-headline-reading-a-new-pledge-for-the-poor-sankalp-garib-kalyan-yojana-a-supporting-paragraph-about-free-education-healthcare-and-employment-training-for-underprivileged-families-an-apply-now-orange-cta-button-and-a-green-call-now-button-linking-to-tel-7562038551-right-side-display-the-generated-hero-image",
+      "title": "Build a full-width hero section with an orange-to-white gradient background. Left side: a badge labeled 'Sankalp Marg Foundation', a large headline reading 'A New Pledge for the Poor — Sankalp Garib Kalyan Yojana', a supporting paragraph about free education, healthcare, and employment training for underprivileged families, an 'Apply Now' orange CTA button, and a green 'Call Now' button linking to tel:7562038551. Right side: display the generated hero image.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-services-section-titled-our-key-services-with-four-cards-in-a-responsive-grid-1-free-healthcare-better-treatment-and-free-medicines-for-every-poor-family-2-quality-education-free-books-and-scholarships-for-children-3-farmer-welfare-financial-and-technical-support-for-farmers-4-employment-mission-training-and-livelihood-support-for-women-each-card-has-a-relevant-font-awesome-icon-in-orange-a-bold-title-and-a-short-description-cards-have-a-hover-effect-that-highlights-the-border-in-orange-and-scales-the-icon",
+      "title": "Build a services section titled 'Our Key Services' with four cards in a responsive grid: (1) Free Healthcare — better treatment and free medicines for every poor family; (2) Quality Education — free books and scholarships for children; (3) Farmer Welfare — financial and technical support for farmers; (4) Employment Mission — training and livelihood support for women. Each card has a relevant Font Awesome icon in orange, a bold title, and a short description. Cards have a hover effect that highlights the border in orange and scales the icon.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-dark-footer-slate-900-background-with-three-columns-1-logo-inverted-white-version-with-a-tagline-about-the-foundation-s-commitment-to-the-underprivileged-2-quick-links-home-scheme-info-privacy-policy-3-contact-details-with-icons-email-vishalkumar841456-gmail-com-phone-7562038551-address-new-delhi-india-include-a-copyright-line-2026-sankalp-marg-foundation-all-rights-reserved",
+      "title": "Build a dark footer (slate-900 background) with three columns: (1) Logo (inverted white version) with a tagline about the foundation's commitment to the underprivileged; (2) Quick links: Home, Scheme Info, Privacy Policy; (3) Contact details with icons — email: vishalkumar841456@gmail.com, phone: 7562038551, address: New Delhi, India. Include a copyright line '© 2026 Sankalp Marg Foundation. All Rights Reserved.'",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-consistent-visual-theme-across-the-entire-page-orange-ea580c-as-the-primary-brand-color-slate-900-for-dark-sections-white-and-slate-50-for-light-backgrounds-bold-black-headings-and-rounded-card-button-styling-use-smooth-scroll-behavior-and-subtle-hover-transitions-throughout",
+      "title": "Apply a consistent visual theme across the entire page: orange (#ea580c) as the primary brand color, slate-900 for dark sections, white and slate-50 for light backgrounds, bold black headings, and rounded card/button styling. Use smooth scroll behavior and subtle hover transitions throughout.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [],
+  "gameProjectType": "none",
+  "projectName": "Sankalp Garib Kalyan Yojana",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

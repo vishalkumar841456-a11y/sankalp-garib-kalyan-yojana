@@ -1,0 +1,117 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Sankalp Garib Kalyan Yojana Landing Page",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "summary": "Build fixed top navigation header with logo, navigation links, phone number, and Register button",
+      "acceptanceCriteria": [
+        "Header is fixed at the top and remains visible on scroll.",
+        "Logo renders correctly in the header.",
+        "Navigation links scroll smoothly to their respective sections.",
+        "Phone number 7562038551 is clickable as a tel: link.",
+        "Register button is visible and styled with orange background and rounded-full shape."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Header.tsx",
+          "operation": "create",
+          "description": "Create a fixed navigation header component with the generated Sankalp Marg Foundation logo (using frontend/public/assets/generated/sankalp-logo.dim_256x256.png), navigation links (Home, Scheme Info, Contact), clickable phone number (tel:7562038551) in orange, and an orange rounded-full Register button. Apply fixed positioning, white/95 background with backdrop-blur, and shadow-sm styling."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the Header component at the top of the application layout to ensure it appears on all pages."
+        }
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "summary": "Build full-width hero section with orange gradient, headline, CTAs, and hero image",
+      "acceptanceCriteria": [
+        "Hero section is two-column on desktop and stacked on mobile.",
+        "Headline, badge, description, and both CTA buttons are rendered.",
+        "'Apply Now' button is orange; 'Call Now' button is green and links to tel:7562038551.",
+        "Hero image is displayed with rounded corners and shadow."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/HeroSection.tsx",
+          "operation": "create",
+          "description": "Create a hero section component with orange-to-white gradient background (from-orange-50 to-white). Left column: 'Sankalp Marg Foundation' badge, large headline 'A New Pledge for the Poor — Sankalp Garib Kalyan Yojana', supporting paragraph about free education, healthcare, and employment training, orange 'Apply Now' CTA button, and green 'Call Now' button (linking to tel:7562038551). Right column: display the generated hero image using frontend/public/assets/generated/hero-community.dim_800x600.png with rounded corners and shadow. Ensure responsive two-column layout on desktop and stacked on mobile."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the HeroSection component below the Header to display the hero content prominently on the landing page."
+        }
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "summary": "Build services section with four service cards in responsive grid",
+      "acceptanceCriteria": [
+        "All four service cards are rendered with correct icons, titles, and descriptions.",
+        "Cards are displayed in a 4-column grid on large screens, 2-column on medium, 1-column on small.",
+        "Hover effect changes border color to orange and scales the icon."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/ServicesSection.tsx",
+          "operation": "create",
+          "description": "Create a services section component titled 'Our Key Services' with a responsive grid (grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8) containing four cards: (1) Free Healthcare with relevant Font Awesome icon in orange, title, and description about better treatment and free medicines; (2) Quality Education with icon, title, and description about free books and scholarships; (3) Farmer Welfare with icon, title, and description about financial and technical support; (4) Employment Mission with icon, title, and description about training and livelihood support for women. Apply hover effects that highlight border in orange and scale the icon."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the ServicesSection component below the HeroSection to display the key services offered by the foundation."
+        }
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "summary": "Build dark footer with three columns: logo/tagline, quick links, and contact details",
+      "acceptanceCriteria": [
+        "Footer has three columns on desktop, stacked on mobile.",
+        "All contact details (email, phone, address) are displayed with appropriate icons.",
+        "Email and phone are clickable links.",
+        "Copyright text is displayed at the bottom."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Footer.tsx",
+          "operation": "create",
+          "description": "Create a dark footer component (slate-900 background, white text) with three responsive columns: (1) Inverted white version of the logo with tagline about the foundation's commitment to the underprivileged; (2) Quick links section with Home, Scheme Info, Privacy Policy; (3) Contact details with icons — clickable email link (vishalkumar841456@gmail.com), clickable phone link (tel:7562038551), and address (New Delhi, India). Include copyright line '© 2026 Sankalp Marg Foundation. All Rights Reserved.' at the bottom."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the Footer component at the bottom of the application layout to complete the page structure."
+        }
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "summary": "Apply consistent visual theme with orange primary color, smooth scrolling, and hover transitions",
+      "acceptanceCriteria": [
+        "Orange is used consistently for CTAs, icons, accents, and hover states.",
+        "Smooth scrolling is enabled when navigating to sections.",
+        "Typography is bold and legible throughout.",
+        "Rounded corners are applied uniformly to cards and buttons."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/index.css",
+          "operation": "modify",
+          "description": "Configure global styles to enable smooth scroll behavior (scroll-behavior: smooth), define orange (#ea580c) as the primary brand color using CSS custom properties, set bold typography defaults for headings, and establish base styling for rounded cards and buttons. Ensure consistent use of slate-900 for dark sections and white/slate-50 for light backgrounds."
+        },
+        {
+          "path": "frontend/tailwind.config.js",
+          "operation": "modify",
+          "description": "Extend the Tailwind theme to include custom orange color (#ea580c) in the color palette, configure rounded corner utilities (rounded-3xl), and define transition utilities for smooth hover effects throughout the application."
+        }
+      ]
+    }
+  ]
+}

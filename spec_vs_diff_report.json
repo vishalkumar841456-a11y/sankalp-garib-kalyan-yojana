@@ -1,0 +1,65 @@
+{
+  "kind": "spec_vs_diff_report",
+  "version": "1.0",
+  "generatedAt": "2026-03-01T19:45:12.327Z",
+  "summary": "The diff implements all five requirements with high fidelity. All major components (Header, HeroSection, ServicesSection, Footer) are present and functionally correct. Minor deviations exist: navigation link labels use non-English text ('Yojana', 'Sampark') in the header nav, the copyright line uses a dynamic year instead of hardcoded '2026', and the footer Quick Links labels ('Main Home', 'Yojana Jankari') differ from the spec ('Home', 'Scheme Info'). The constraint requiring all user-facing text to be in English is partially violated. Font Awesome icons were requested but Lucide React icons were used instead.",
+  "missing_requirements": [
+    {
+      "requirement": "All user-facing text must be in English. Navigation links in header should read 'Home', 'Scheme Info', and 'Contact', not 'Yojana', 'Sampark', and non-English equivalents.",
+      "reason": "Header navigation buttons use 'Yojana' and 'Sampark' (Hindi words) instead of English labels 'Scheme Info' and 'Contact' as specified. Footer quick links use 'Yojana Jankari' instead of 'Scheme Info'.",
+      "evidence": [
+        "frontend/src/components/Header.tsx",
+        "frontend/src/components/Footer.tsx"
+      ]
+    }
+  ],
+  "hallucinated_features": [
+    {
+      "description": "Stats/counters section added to the hero ('10K+ Families Helped', '50+ Districts Covered', '4 Core Programs') with a floating badge ('Trusted by 10,000+ Families').",
+      "reason": "The build request does not specify any statistics or floating badge overlay in the hero section.",
+      "evidence": [
+        "frontend/src/components/HeroSection.tsx"
+      ]
+    },
+    {
+      "description": "A decorative rotated gradient background div is added behind the hero image.",
+      "reason": "Not mentioned in the spec; only rounded corners and shadow on the hero image were requested.",
+      "evidence": [
+        "frontend/src/components/HeroSection.tsx"
+      ]
+    },
+    {
+      "description": "Footer includes a 'Built with caffeine.ai' attribution line with UTM tracking.",
+      "reason": "No such attribution or external link was requested in the build specification.",
+      "evidence": [
+        "frontend/src/components/Footer.tsx"
+      ]
+    },
+    {
+      "description": "Mobile hamburger menu with animated open/close toggle added to the header.",
+      "reason": "While responsive behavior is implied, the spec does not explicitly request a hamburger menu implementation.",
+      "evidence": [
+        "frontend/src/components/Header.tsx"
+      ]
+    }
+  ],
+  "confidence": 0.82,
+  "changed_files": [
+    "all_files_summary.json",
+    "backend/main.mo",
+    "frontend-file-summaries.txt",
+    "frontend/index.css",
+    "frontend/index.html",
+    "frontend/src/App.tsx",
+    "frontend/src/components/Footer.tsx",
+    "frontend/src/components/Header.tsx",
+    "frontend/src/components/HeroSection.tsx",
+    "frontend/src/components/ServicesSection.tsx",
+    "frontend/src/hooks/useActor.ts",
+    "frontend/src/hooks/useInternetIdentity.ts",
+    "frontend/src/index.css",
+    "frontend/src/main.tsx",
+    "frontend/tailwind.config.js",
+    "project_state.json"
+  ]
+}

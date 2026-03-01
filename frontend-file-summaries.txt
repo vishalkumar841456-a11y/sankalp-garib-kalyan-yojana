@@ -1,0 +1,9 @@
+{
+  "frontend/src/App.tsx": "Root application component that composes the full single-page layout by rendering Header, HeroSection, ServicesSection, and Footer in order.",
+  "frontend/src/components/Header.tsx": "Fixed top navigation header with the Sankalp Marg Foundation logo, smooth-scroll nav links (Home, Yojana, Sampark), a clickable phone number in brand orange, an orange rounded-pill Register button, and a responsive mobile hamburger menu.",
+  "frontend/src/components/HeroSection.tsx": "Full-width hero section with an orange-to-amber gradient background, a badge, bold headline, supporting paragraph, orange \"Apply Now\" and green \"Call Now\" CTA buttons, stat counters, and the generated hero community image with a floating badge.",
+  "frontend/src/components/ServicesSection.tsx": "Services section displaying four welfare program cards (Free Healthcare, Quality Education, Farmer Welfare, Employment Mission) in a responsive 1/2/4-column grid with orange icons, hover border highlight, and icon scale animation.",
+  "frontend/src/components/Footer.tsx": "Dark slate-900 footer with three responsive columns (logo/tagline, quick links, contact details), clickable email and phone links, address, dynamic copyright year, and caffeine.ai attribution with UTM tracking.",
+  "frontend/src/index.css": "Global stylesheet importing Hind and Poppins fonts, defining the OKLCH brand color system with saffron-orange as the primary brand color, smooth scroll behavior, and font family assignments for body and headings.",
+  "frontend/tailwind.config.js": "Extended Tailwind configuration adding brand color tokens (brand, brand-dark, brand-light) mapped to OKLCH CSS variables, Hind/Poppins font families, and additional border-radius utilities."
+}

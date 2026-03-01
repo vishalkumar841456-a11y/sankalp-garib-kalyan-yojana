@@ -1,0 +1,124 @@
+{
+  "kind": "build_request",
+  "title": "Sankalp Garib Kalyan Yojana Landing Page",
+  "projectName": "Sankalp Kalyan",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Build a fixed top navigation header with the Sankalp Marg Foundation logo (use generated logo asset), navigation links to Home, Scheme Info, and Contact sections, a clickable phone number (7562038551) displayed in orange, and a 'Register' button styled as an orange rounded pill.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "fixed w-full top-0 bg-white/95 backdrop-blur shadow-sm"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Header is fixed at the top and remains visible on scroll.",
+        "Logo renders correctly in the header.",
+        "Navigation links scroll smoothly to their respective sections.",
+        "Phone number 7562038551 is clickable as a tel: link.",
+        "Register button is visible and styled with orange background and rounded-full shape."
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Build a full-width hero section with an orange-to-white gradient background. Left side: a badge labeled 'Sankalp Marg Foundation', a large headline reading 'A New Pledge for the Poor — Sankalp Garib Kalyan Yojana', a supporting paragraph about free education, healthcare, and employment training for underprivileged families, an 'Apply Now' orange CTA button, and a green 'Call Now' button linking to tel:7562038551. Right side: display the generated hero image.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "pt-40 pb-20 bg-gradient-to-br from-orange-50 to-white"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Hero section is two-column on desktop and stacked on mobile.",
+        "Headline, badge, description, and both CTA buttons are rendered.",
+        "'Apply Now' button is orange; 'Call Now' button is green and links to tel:7562038551.",
+        "Hero image is displayed with rounded corners and shadow."
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Build a services section titled 'Our Key Services' with four cards in a responsive grid: (1) Free Healthcare — better treatment and free medicines for every poor family; (2) Quality Education — free books and scholarships for children; (3) Farmer Welfare — financial and technical support for farmers; (4) Employment Mission — training and livelihood support for women. Each card has a relevant Font Awesome icon in orange, a bold title, and a short description. Cards have a hover effect that highlights the border in orange and scales the icon.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8"
+        ]
+      },
+      "acceptanceCriteria": [
+        "All four service cards are rendered with correct icons, titles, and descriptions.",
+        "Cards are displayed in a 4-column grid on large screens, 2-column on medium, 1-column on small.",
+        "Hover effect changes border color to orange and scales the icon."
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Build a dark footer (slate-900 background) with three columns: (1) Logo (inverted white version) with a tagline about the foundation's commitment to the underprivileged; (2) Quick links: Home, Scheme Info, Privacy Policy; (3) Contact details with icons — email: vishalkumar841456@gmail.com, phone: 7562038551, address: New Delhi, India. Include a copyright line '© 2026 Sankalp Marg Foundation. All Rights Reserved.'",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "bg-slate-900 text-white pt-20 pb-10"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Footer has three columns on desktop, stacked on mobile.",
+        "All contact details (email, phone, address) are displayed with appropriate icons.",
+        "Email and phone are clickable links.",
+        "Copyright text is displayed at the bottom."
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "text": "Apply a consistent visual theme across the entire page: orange (#ea580c) as the primary brand color, slate-900 for dark sections, white and slate-50 for light backgrounds, bold black headings, and rounded card/button styling. Use smooth scroll behavior and subtle hover transitions throughout.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "text-orange-600",
+          "bg-slate-900",
+          "rounded-3xl"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Orange is used consistently for CTAs, icons, accents, and hover states.",
+        "Smooth scrolling is enabled when navigating to sections.",
+        "Typography is bold and legible throughout.",
+        "Rounded corners are applied uniformly to cards and buttons."
+      ]
+    }
+  ],
+  "constraints": [
+    "All user-facing text must be in English.",
+    "Contact phone number must remain 7562038551.",
+    "Contact email must remain vishalkumar841456@gmail.com.",
+    "Primary brand color must be orange (#ea580c)."
+  ],
+  "nonGoals": [
+    "No backend registration or form submission logic.",
+    "No authentication or user accounts.",
+    "No multi-language or Hindi language toggle.",
+    "No payment processing."
+  ],
+  "imageRequirements": {
+    "required": [
+      "Sankalp Marg Foundation NGO logo — a warm saffron/orange circular emblem with an open hand and a glowing sun rising above it, representing service and hope, on a white background (sankalp-logo.dim_256x256.png)",
+      "Hero section photo — a warm, uplifting scene of diverse Indian community members gathered together in a village setting, soft golden-hour lighting, hopeful and welcoming atmosphere (hero-community.dim_800x600.png)"
+    ],
+    "edits": []
+  }
+}

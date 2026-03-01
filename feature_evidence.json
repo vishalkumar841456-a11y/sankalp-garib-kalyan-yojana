@@ -1,0 +1,100 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-build-a-fixed-top-navigation-header-with-the-sankalp-marg-foundation-logo-use-generated-logo-asset-navigation-links-to-home-scheme-info-and-contact-sections-a-clickable-phone-number-7562038551-displayed-in-orange-and-a-register-button-styled-as-an-orange-rounded-pill",
+      "featureTitle": "Build a fixed top navigation header with the Sankalp Marg Foundation logo (use generated logo asset), navigation links to Home, Scheme Info, and Contact sections, a clickable phone number (7562038551) displayed in orange, and a 'Register' button styled as an orange rounded pill.",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/Header.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-1"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-build-a-full-width-hero-section-with-an-orange-to-white-gradient-background-left-side-a-badge-labeled-sankalp-marg-foundation-a-large-headline-reading-a-new-pledge-for-the-poor-sankalp-garib-kalyan-yojana-a-supporting-paragraph-about-free-education-healthcare-and-employment-training-for-underprivileged-families-an-apply-now-orange-cta-button-and-a-green-call-now-button-linking-to-tel-7562038551-right-side-display-the-generated-hero-image",
+      "featureTitle": "Build a full-width hero section with an orange-to-white gradient background. Left side: a badge labeled 'Sankalp Marg Foundation', a large headline reading 'A New Pledge for the Poor — Sankalp Garib Kalyan Yojana', a supporting paragraph about free education, healthcare, and employment training for underprivileged families, an 'Apply Now' orange CTA button, and a green 'Call Now' button linking to tel:7562038551. Right side: display the generated hero image.",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/HeroSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-build-a-services-section-titled-our-key-services-with-four-cards-in-a-responsive-grid-1-free-healthcare-better-treatment-and-free-medicines-for-every-poor-family-2-quality-education-free-books-and-scholarships-for-children-3-farmer-welfare-financial-and-technical-support-for-farmers-4-employment-mission-training-and-livelihood-support-for-women-each-card-has-a-relevant-font-awesome-icon-in-orange-a-bold-title-and-a-short-description-cards-have-a-hover-effect-that-highlights-the-border-in-orange-and-scales-the-icon",
+      "featureTitle": "Build a services section titled 'Our Key Services' with four cards in a responsive grid: (1) Free Healthcare — better treatment and free medicines for every poor family; (2) Quality Education — free books and scholarships for children; (3) Farmer Welfare — financial and technical support for farmers; (4) Employment Mission — training and livelihood support for women. Each card has a relevant Font Awesome icon in orange, a bold title, and a short description. Cards have a hover effect that highlights the border in orange and scales the icon.",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/ServicesSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-build-a-dark-footer-slate-900-background-with-three-columns-1-logo-inverted-white-version-with-a-tagline-about-the-foundation-s-commitment-to-the-underprivileged-2-quick-links-home-scheme-info-privacy-policy-3-contact-details-with-icons-email-vishalkumar841456-gmail-com-phone-7562038551-address-new-delhi-india-include-a-copyright-line-2026-sankalp-marg-foundation-all-rights-reserved",
+      "featureTitle": "Build a dark footer (slate-900 background) with three columns: (1) Logo (inverted white version) with a tagline about the foundation's commitment to the underprivileged; (2) Quick links: Home, Scheme Info, Privacy Policy; (3) Contact details with icons — email: vishalkumar841456@gmail.com, phone: 7562038551, address: New Delhi, India. Include a copyright line '© 2026 Sankalp Marg Foundation. All Rights Reserved.'",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/Footer.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-apply-a-consistent-visual-theme-across-the-entire-page-orange-ea580c-as-the-primary-brand-color-slate-900-for-dark-sections-white-and-slate-50-for-light-backgrounds-bold-black-headings-and-rounded-card-button-styling-use-smooth-scroll-behavior-and-subtle-hover-transitions-throughout",
+      "featureTitle": "Apply a consistent visual theme across the entire page: orange (#ea580c) as the primary brand color, slate-900 for dark sections, white and slate-50 for light backgrounds, bold black headings, and rounded card/button styling. Use smooth scroll behavior and subtle hover transitions throughout.",
+      "files": [
+        "frontend/src/index.css",
+        "frontend/tailwind.config.js"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-5"
+      ],
+      "confidence": "high"
+    }
+  ]
+}
